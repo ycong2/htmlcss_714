@@ -1,9 +1,13 @@
-#gnb {
-  height: 100px;
+#hd {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1rem;
+  border-bottom: 1px solid #ccc;
 }
-#gnb li {
-  padding: 10px;
+#hd ul li a {
+  padding: 0 0.3rem;
 }
-#gnb li a {
+#hd ul li a:hover {
   color: red;
 }/*# sourceMappingURL=origin.css.map */

@@ -1,11 +1,20 @@
-#gnb{
-    height:100px;
-    
-    li{
-        padding: 10px;
+#hd{
+    align-items: center;
+    padding:0 1rem;
+    border-bottom: 1px solid #ccc;
+    h1{
         a{
-            color:red;
+
         }
     }
-
+    ul{
+        li{
+            a{
+              padding:0 0.3rem;
+              &:hover{
+                color:red;
+              }
+            }
+        }
+    }
 }
