@@ -4,10 +4,33 @@
           align-items: center;
   padding: 0 1rem;
   border-bottom: 1px solid #ccc;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+#hd h1 a img {
+  height: 35px;
 }
 #hd ul li a {
   padding: 0 0.3rem;
 }
 #hd ul li a:hover {
   color: red;
+}
+
+.section {
+  height: 100vh;
+}
+
+#about {
+  background-color: yellow;
+}
+
+#showroom {
+  background-color: #eee;
+}
+
+#contact {
+  background-color: red;
 }/*# sourceMappingURL=origin.css.map */

@@ -2,9 +2,14 @@
     align-items: center;
     padding:0 1rem;
     border-bottom: 1px solid #ccc;
+    position: fixed;
+    left:0; right:0; top:0;
     h1{
         a{
-
+           
+           img{
+            height: 35px;
+           }
         }
     }
     ul{
@@ -17,4 +22,16 @@
             }
         }
     }
+}
+.section{
+    height: 100vh;
+}
+#about{
+    background-color: yellow;
+}
+#showroom{
+    background-color: #eee;
+}
+#contact{
+    background-color: red;
 }
